@@ -10,7 +10,7 @@ function TypeChat() {
         <MdAttachFile />
       </div>
       <div className="w-9/12 ">
-        <textarea rows={2} type="text" placeholder='Write a message...' className=' w-8/12 text-xs bg-inherit font-normal resize-none text-gray-500 focus:outline-none  overflow-hidden ' />
+        <textarea rows={"auto"} type="text" placeholder='Write a message...' className=' w-8/12 text-xs bg-inherit font-normal resize-none text-gray-500 focus:outline-none  overflow-hidden ' />
       </div>
       <div className="w-2/12 flex justify-end text-2xl gap-4 pr-3">
       <CiFaceSmile />
