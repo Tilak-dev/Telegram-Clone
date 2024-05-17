@@ -53,12 +53,12 @@ const data = [
     img: "img9.webp",
     description:"Hi everyone, its more then 8-10 days of starting with javascript, but still i don't understand how to write the code. Can anyone help me?"
   },
-  {
-    id: 10,
-    name: "React",
-    img: "img10.webp",
-    description:"Hi everyone, its more then 8-10 days of starting with javascript, but still i don't understand how to write the code. Can anyone help me?"
-  },
+  // {
+  //   id: 10,
+  //   name: "React",
+  //   img: "img10.webp",
+  //   description:"Hi everyone, its more then 8-10 days of starting with javascript, but still i don't understand how to write the code. Can anyone help me?"
+  // },
 ];
 
 export default data

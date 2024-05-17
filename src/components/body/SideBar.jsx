@@ -4,7 +4,7 @@ import Massage from "./chat/Massage";
 
 function SideBar() {
   return (
-    <div className="flex flex-col min-h-screen bg-gray-800 w-2/6 border-r-[1px] border-black pl-3  gap-y-2 h-screen overflow-hidden">
+    <div className="flex flex-col h-full min-h-screen bg-gray-800 w-2/6 border-r-[1px] border-black pl-3  gap-y-2">
       <div className="flex text-gray-600 gap-4 pt-2 pb-3 w-full">
         <div className="text-gray-600 text-3xl font-light">
           <IoMenuOutline />
@@ -17,7 +17,8 @@ function SideBar() {
           />
         </div>
       </div>
-      <div className="w-full flex flex-col gap-y-4">
+      <div className="w-full flex flex-col gap-y-4 overflow-hidden ">
+        {/*  overflow-scroll scroll-smooth */}
         <Massage />
       </div>
     </div>
